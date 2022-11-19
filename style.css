@@ -1,0 +1,11 @@
+
+  .extra {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  div {
+    border: 1px solid black;
+    margin: 4px;
+  }
+  
