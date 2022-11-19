@@ -25,7 +25,7 @@ console.log(hello);
 
 //3
 
-let number = prompt("Enter a number");
+let number = +prompt("Enter a number");
 if(number < 0) {
  alert("Yes")
  
@@ -36,7 +36,7 @@ alert("No");
 
 //4
 
-let number = prompt("Enter a number");
+let number = +prompt("Enter a number");
 
 if(number % 2 === 0) {
 	alert("even")
@@ -47,8 +47,8 @@ if(number % 2 === 0) {
 
 //5
 
-let number1 = prompt("Enter a number");
-let number2 = prompt("Enter a number");
+let number1 = +prompt("Enter a number");
+let number2 = +prompt("Enter a number");
 if (number1 % number2 === 0 || number2 % number1 === 0) {
   console.log(1)
 } else {
